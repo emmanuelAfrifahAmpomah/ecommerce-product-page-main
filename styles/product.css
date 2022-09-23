@@ -1,0 +1,54 @@
+/*universal styles*/
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*body*/
+body {background-color: chocolate;}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+/*header*/ 
+
+#headerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.logo {
+    position: absolute;
+    left: 150px;
+}
+
+#mainNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    left: 350px;
+}
+
+.navCart {
+    position: absolute;
+    left: 800px;
+}
+
+.navIcon{
+    position: absolute;
+    left: 900px;
+}
+
+
+/*main*/ 
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

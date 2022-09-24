@@ -5,50 +5,92 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: Kumbh Sans, sans-serif;
 }
-
-/*body*/
-body {background-color: chocolate;}
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
 
 /*header*/ 
 
 #headerNav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 5em;
-}
-
-.logo {
-    position: absolute;
-    left: 150px;
+    padding: 10px 130px;
 }
 
 #mainNav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    position: absolute;
-    left: 350px;
-}
-
-.navCart {
-    position: absolute;
-    left: 800px;
-}
-
-.navIcon{
-    position: absolute;
-    left: 900px;
-}
-
-
-/*main*/ 
-main {
-    display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20em;
+}
+
+div li {
+    padding: 0px 20px;
+}
+
+hr {
+    width: 68em;
+    margin-left: 7em;
+    position: relative;
+    top: -60px;
+    left: 18px;
+    opacity: .3;
+}
+
+
+
+/*body*/
+
+.listItems li a {
+    color: #87879D;
+}
+
+body {
+    width: 100%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p {
+    font-size: 16px;
+}
+
+ 
+/*main*/ 
+.mainItems {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 200px;
+}
+
+.bodyImage {
+    height: 350px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.imageSection {
+    padding-right: 90px;
+}
+
+.otherSection {
+    padding-top: 40px;
+}
+
+
+/* footer */
+footer {
+    margin-top: 100px;
 }

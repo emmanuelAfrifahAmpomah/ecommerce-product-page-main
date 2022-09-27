@@ -8,6 +8,7 @@
     font-family: Kumbh Sans, sans-serif;
 }
 
+
 /*header*/ 
 
 #headerNav {
@@ -65,8 +66,15 @@ body {
 
 p {
     font-size: 16px;
+    padding-bottom: 20px;
+    padding-right: 60px;
 }
 
+h1 {}
+
+h4 {
+    font-weight: 700;
+}
  
 /*main*/ 
 .mainItems {
@@ -89,8 +97,49 @@ p {
     padding-top: 40px;
 }
 
+.sneak {
+    color: hsl(26, 100%, 70%);
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.fall {
+    padding-bottom: 30px;
+}
+
+.otherSection>p {
+    color: #87879D;
+}
+
+.price {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.discount {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    border-style: solid;
+    border-color: hsl(25, 100%, 94%);
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: smaller;
+    padding: 1.3px;
+    margin-left: 8px;
+}
+
+.previous_price {
+    font-size: small;
+    text-decoration: line-through;
+    color: #87879D;
+}
+
+div p span {
+    line-height: 30px;
+}
 
 /* footer */
 footer {
-    margin-top: 100px;
+    padding-bottom: 12px;
 }

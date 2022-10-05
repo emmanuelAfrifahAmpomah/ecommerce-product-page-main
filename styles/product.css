@@ -16,8 +16,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5em;
+    margin-bottom: 4em;
     padding: 10px 130px;
+}
+
+.navline {
+    border-bottom: 2px solid #cfcfcf;
 }
 
 #mainNav {
@@ -26,27 +30,29 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .listItems {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20em;
+    margin-right: 17em;
+}
+
+.logo {
+    margin-right: 10px;
+    margin-left: -50px;
+}
+
+.navIcon, .navCart {
+    margin-right: -10px;
 }
 
 div li {
     padding: 0px 20px;
 }
 
-hr {
-    width: 68em;
-    margin-left: 7em;
-    position: relative;
-    top: -60px;
-    left: 18px;
-    opacity: .3;
-}
 
 
 
@@ -80,8 +86,7 @@ h4 {
 .mainItems {
     display: flex;
     flex-wrap: nowrap;
-    margin: 10px 200px;
-}
+} 
 
 .bodyImage {
     height: 350px;
@@ -138,6 +143,16 @@ h4 {
 div p span {
     line-height: 30px;
 }
+
+/* buttons */
+#cartButton {
+    background-color: hsl(26, 100%, 55%);;
+}
+
+.numInput {
+    width: auto!important;
+}
+
 
 /* footer */
 footer {

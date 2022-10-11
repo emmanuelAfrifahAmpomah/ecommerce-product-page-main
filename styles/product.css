@@ -16,8 +16,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 4em;
-    padding: 10px 130px;
+    margin-bottom: 3em;
+    padding: 10px 120px;
 }
 
 .navline {
@@ -30,7 +30,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 7px;
 }
 
 .listItems {
@@ -60,6 +60,7 @@ div li {
 
 .listItems li a {
     color: #87879D;
+    text-decoration: none;
 }
 
 body {
@@ -86,20 +87,23 @@ h4 {
 .mainItems {
     display: flex;
     flex-wrap: nowrap;
+    padding: 0px 60px;
 } 
 
 .bodyImage {
     height: 350px;
     border-style: hidden;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-.imageSection {
+/* .imageSection {
     padding-right: 90px;
-}
+} */
 
 .otherSection {
     padding-top: 40px;
+    margin-left: -4em;
 }
 
 .sneak {
@@ -107,14 +111,21 @@ h4 {
     padding-bottom: 15px;
     text-transform: uppercase;
     font-size: small;
+    font-weight: 900;
 }
 
 .fall {
-    padding-bottom: 30px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-weight: 900;
 }
 
 .otherSection>p {
     color: #87879D;
+}
+
+.money {
+    margin-top: -20px;
 }
 
 .price {
@@ -141,12 +152,31 @@ h4 {
 }
 
 div p span {
-    line-height: 30px;
+    line-height: 0px;
 }
+
+form {
+    margin-top: -10px;
+}
+
+.imageSection {
+    margin-right: 10em;
+}
+
+.thumbImage {
+    cursor: pointer;
+}
+
+/* .productOther {
+    border-style: hidden;
+    border-radius: 10px;
+} */
 
 /* buttons */
 #cartButton {
-    background-color: hsl(26, 100%, 55%);;
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    width: 200px;
 }
 
 .numInput {
@@ -156,5 +186,5 @@ div p span {
 
 /* footer */
 footer {
-    padding-bottom: 12px;
+    padding: 12px 0px;
 }

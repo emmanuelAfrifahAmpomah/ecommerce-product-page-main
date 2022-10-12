@@ -1,10 +1,3 @@
-// $("document").ready(function() {
-//     $("#cartButton").click(function() {
-//         $(".bodyImage").fadeToggle();
-//         $("a:last").css("color", "pink");
-//     });
-// });
-
 
 var productMain = document.getElementById("productMain");
 var productOther = document.getElementsByClassName("productOther");
@@ -24,3 +17,21 @@ productOther[2].onclick = function() {
 productOther[3].onclick = function() {
     productMain.src = productOther[3].src;
 }
+
+const plus = document.querySelector(".plus"),
+minus = document.querySelector(".minus"),
+number = document.querySelector(".number");
+
+let a = 0;
+
+plus.addEventListener("click", function() {
+    a++;
+    number.innerText = a;
+});
+
+minus.addEventListener("click", function() {
+    if (a>=1) {
+    a--;
+    number.innerText = a;
+}
+});

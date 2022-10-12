@@ -77,8 +77,6 @@ p {
     padding-right: 60px;
 }
 
-h1 {}
-
 h4 {
     font-weight: 700;
 }
@@ -96,6 +94,11 @@ h4 {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+ .productOther:hover {
+    opacity: 0.8;
+    border: 2px solid hsl(26, 100%, 55%);
+} 
 
 /* .imageSection {
     padding-right: 90px;
@@ -167,10 +170,9 @@ form {
     cursor: pointer;
 }
 
-/* .productOther {
-    border-style: hidden;
-    border-radius: 10px;
-} */
+i {
+    margin-right: 10px;
+}
 
 /* buttons */
 #cartButton {
@@ -183,6 +185,20 @@ form {
     width: auto!important;
 }
 
+.numberInput .minus, .numberInput .plus {
+    font-size: 20px;
+    color: hsl(26, 100%, 55%);;
+}
+
+.numberInput {
+    background-color: #f3f0f0;
+    border: 1px hidden;
+    border-radius: 10px;
+}
+
+.numberInput span {
+    font-weight: 600;
+}
 
 /* footer */
 footer {
